@@ -28,6 +28,8 @@ class Login extends React.Component {
                                                            id="exampleInputPassword1" 
                                                            placeholder="Password" />
                                                 </FormGroup>
+                                                <button className="btn btn-success">Entrar</button>
+                                                <button className="btn btn-danger">Cadastrar</button>
                                             </fieldset>
                                         </div>
                                     </div>
