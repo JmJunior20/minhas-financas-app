@@ -9,9 +9,11 @@ class CadastroUsuario extends React.Component {
     email: "",
     senha: "",
     senhaRepeticao: "",
-  }
+  };
 
-  cadastrar
+  cadastrar = () => {
+    console.log(this.state);
+  };
 
   render() {
     return (
@@ -53,11 +55,21 @@ class CadastroUsuario extends React.Component {
                     id="inputRepitaSenha"
                     className="form-control"
                     name="senha"
-                    onChange={(e) => this.setState({ senhaRepeticao: e.target.value })}
+                    onChange={(e) =>
+                      this.setState({ senhaRepeticao: e.target.value })
+                    }
                   />
                 </FormGroup>
-                <button type="button" className="btn btn-success">Salvar</button>
-                <button type="button" className="btn btn-danger">Cancelar</button>
+                <button
+                  onClick={this.cadastrar}
+                  type="button"
+                  className="btn btn-success"
+                >
+                  Salvar
+                </button>
+                <button type="button" className="btn btn-danger">
+                  Cancelar
+                </button>
               </div>
             </div>
           </div>
