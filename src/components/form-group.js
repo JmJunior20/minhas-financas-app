@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-function FormGroup(props) {
+function FormGroup(props){
     return (
         <div className="form-group">
             <label htmlFor={props.htmlFor}>{props.label}</label>
@@ -9,4 +9,4 @@ function FormGroup(props) {
     )
 }
 
-export default FormGroup;
+export default FormGroup
