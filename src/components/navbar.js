@@ -5,7 +5,7 @@ import NavbarItem from './navbarItem';
 function Navbar() {
   return (
     <div
-      className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary"
+      className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"
     >
       <div className="container">
         <a href="https://bootswatch.com/" className="navbar-brand">
