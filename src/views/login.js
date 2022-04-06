@@ -3,7 +3,7 @@ import Card from "../components/card";
 import FormGroup from "../components/form-group";
 import { withRouter } from "react-router-dom";
 
-import axios from "axios";
+import axios from "axios"
 
 class Login extends React.Component {
   state = {
