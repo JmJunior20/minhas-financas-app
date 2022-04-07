@@ -10,6 +10,7 @@ function Navbar() {
       <div className="container">
         <a href="https://bootswatch.com/" className="navbar-brand">
           Minhas Finanças
+          
         </a>
         <button
           className="navbar-toggler"
