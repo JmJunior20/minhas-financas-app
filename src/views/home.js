@@ -8,6 +8,7 @@ class Home extends React.Component {
   };
 
   componentDidMount() {
+    
     const usuarioLogadoString = localStorage.getItem("_usuario_logado");
     const usuarioLogado = JSON.parse(usuarioLogadoString);
 
