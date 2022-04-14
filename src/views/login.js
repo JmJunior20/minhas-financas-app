@@ -3,10 +3,9 @@ import Card from "../components/card";
 import FormGroup from "../components/form-group";
 import { withRouter } from "react-router-dom";
 
-import axios from "axios"
+import axios from "axios";
 
 class Login extends React.Component {
-
   state = {
     email: "",
     senha: "",
@@ -20,7 +19,7 @@ class Login extends React.Component {
         senha: this.state.senha,
       })
       .then((response) => {
-        localStorage.setItem('_usuario_logado', JSON.stringify(response.data))
+        localStorage.setItem("_usuario_logado", JSON.stringify(response.data));
         this.props.history.push("/home");
       })
       .catch((erro) => {
